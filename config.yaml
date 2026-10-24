@@ -1,0 +1,68 @@
+# ---------------------------------------------------------------------------
+# Single place to configure the whole pipeline. Paths are relative to this file.
+# ---------------------------------------------------------------------------
+paths:
+  data_root: data/raw            # <- extract the Kaggle PlantVillage zip in here
+  processed_dir: data/processed  # manifest.csv, classes.json (generated)
+  runs_dir: runs                 # checkpoints per model (generated)
+  reports_dir: reports           # metrics, plots, markdown reports (generated)
+  artifacts_dir: artifacts       # FINAL deployable model for the API (generated)
+  field_test_dir: data/field_test  # optional: your own real-world photos
+
+dataset:
+  prefer_folder_regex: "colou?rs?"   # auto-picks the 'color' / 'colour(s)' variant, ignores grayscale/segmented
+  supported_crops: []                # [] = every crop found. e.g. ["Tomato", "Potato", "Pepper", "Corn"]
+  exclude_classes: []                # exact folder names to drop
+  min_images_per_class: 50           # classes with fewer clean images are dropped
+  extensions: [".jpg", ".jpeg", ".png", ".bmp", ".webp"]
+
+cleaning:
+  min_side_px: 64
+  max_aspect_ratio: 3.0
+  blank_std_threshold: 3.0           # near-uniform images are unusable
+  min_mean_brightness: 8
+  max_mean_brightness: 247
+  max_hamming: 6                     # perceptual-hash search radius (64-bit hash)
+  duplicate_mad: 5.0                 # verified mean abs pixel diff (0-255) => true duplicate, removed
+  group_mad: 20.0                    # looser similarity => kept, but forced into the SAME split (no leakage)
+
+split:
+  val: 0.15
+  test: 0.15
+  seed: 42
+
+image:
+  size: 224
+
+train:
+  models: [baseline_cnn, mobilenet_v3_large, efficientnet_b0]   # add resnet50 if you have a GPU
+  epochs: 6
+  batch_size: 32
+  lr: 0.0003
+  weight_decay: 0.01
+  label_smoothing: 0.1
+  patience: 4
+  num_workers: auto
+  class_weighting: sqrt              # none | sqrt  (counteracts class imbalance)
+  pretrained: true                   # ImageNet weights (needs internet the first time)
+  seed: 42
+
+augment:
+  background_prob: 0.30   # replace the plain lab background with a random synthetic one
+  jpeg_prob: 0.30         # random heavy JPEG compression (cheap cameras / WhatsApp)
+  brightness: 0.4
+  contrast: 0.4
+  saturation: 0.3
+  hue: 0.02               # keep tiny: hue carries disease information
+  blur_prob: 0.2
+  erasing_prob: 0.25
+
+calibration:
+  target_selective_accuracy: 0.98   # accepted predictions should be >= this accurate
+  min_threshold: 0.70               # never go below this, even if validation looks perfect
+  max_threshold: 0.99
+  robustness_per_class: 20          # images/class used for each stress test
+
+export:
+  model_version: "1.0.0"
+  opset: 17

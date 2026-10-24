@@ -1,0 +1,11 @@
+cropdx:
+  base-url: http://localhost:8000      # internal address of the Python service
+  api-key: ${CROPDX_API_KEY:}          # same value as API_KEY of the Python service
+spring:
+  servlet:
+    multipart:
+      max-file-size: 8MB
+      max-request-size: 8MB
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/agri

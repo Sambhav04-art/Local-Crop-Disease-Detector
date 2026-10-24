@@ -1,0 +1,39 @@
+,Apple - Apple scab,Apple - Black rot,Apple - Cedar apple rust,Apple - healthy,Blueberry - healthy,Cherry (including sour) - Powdery mildew,Cherry (including sour) - healthy,Corn (maize) - Cercospora leaf spot Gray leaf spot,Corn (maize) - Common rust,Corn (maize) - Northern Leaf Blight,Corn (maize) - healthy,Grape - Black rot,Grape - Esca (Black Measles),Grape - Leaf blight (Isariopsis Leaf Spot),Grape - healthy,Orange - Haunglongbing (Citrus greening),Peach - Bacterial spot,Peach - healthy,"Pepper, bell - Bacterial spot","Pepper, bell - healthy",Potato - Early blight,Potato - Late blight,Potato - healthy,Raspberry - healthy,Soybean - healthy,Squash - Powdery mildew,Strawberry - Leaf scorch,Strawberry - healthy,Tomato - Bacterial spot,Tomato - Early blight,Tomato - Late blight,Tomato - Leaf Mold,Tomato - Septoria leaf spot,Tomato - Spider mites Two-spotted spider mite,Tomato - Target Spot,Tomato - Tomato Yellow Leaf Curl Virus,Tomato - Tomato mosaic virus,Tomato - healthy
+Apple - Apple scab,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Apple - Black rot,0,93,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Apple - Cedar apple rust,0,0,41,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Apple - healthy,0,0,0,245,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Blueberry - healthy,0,0,0,0,226,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cherry (including sour) - Powdery mildew,0,0,0,0,0,158,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cherry (including sour) - healthy,0,0,0,0,0,0,127,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Corn (maize) - Cercospora leaf spot Gray leaf spot,0,0,0,0,0,0,0,76,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Corn (maize) - Common rust,0,0,0,0,0,0,0,0,179,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Corn (maize) - Northern Leaf Blight,0,0,0,0,0,0,0,7,0,141,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Corn (maize) - healthy,0,0,0,0,0,0,0,0,0,0,174,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Grape - Black rot,0,0,0,0,0,0,0,0,0,0,0,177,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Grape - Esca (Black Measles),0,0,0,0,0,0,0,0,0,0,0,0,208,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Grape - Leaf blight (Isariopsis Leaf Spot),0,0,0,0,0,0,0,0,0,0,0,0,0,162,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Grape - healthy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Orange - Haunglongbing (Citrus greening),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,825,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Peach - Bacterial spot,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,345,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Peach - healthy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,54,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Pepper, bell - Bacterial spot",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,149,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"Pepper, bell - healthy",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,222,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Potato - Early blight,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Potato - Late blight,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Potato - healthy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Raspberry - healthy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Soybean - healthy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,764,0,0,0,0,0,0,0,0,0,0,0,0,0
+Squash - Powdery mildew,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,275,0,0,0,0,0,0,0,0,0,0,0,0
+Strawberry - Leaf scorch,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,167,0,0,0,0,0,0,0,0,0,0,0
+Strawberry - healthy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,69,0,0,0,0,0,0,0,0,0,0
+Tomato - Bacterial spot,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,314,0,0,0,0,0,5,0,0,0
+Tomato - Early blight,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,150,0,0,0,0,0,0,0,0
+Tomato - Late blight,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,282,0,0,0,0,0,0,0
+Tomato - Leaf Mold,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,143,0,0,0,0,0,0
+Tomato - Septoria leaf spot,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,265,0,0,0,0,0
+Tomato - Spider mites Two-spotted spider mite,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,252,0,0,0,0
+Tomato - Target Spot,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,210,0,0,0
+Tomato - Tomato Yellow Leaf Curl Virus,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,1,0,801,0,0
+Tomato - Tomato mosaic virus,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,0
+Tomato - healthy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,238

@@ -1,0 +1,42 @@
+,precision,recall,f1-score,support
+Apple - Apple scab,1.0,1.0,1.0,95.0
+Apple - Black rot,1.0,1.0,1.0,93.0
+Apple - Cedar apple rust,1.0,1.0,1.0,41.0
+Apple - healthy,1.0,0.9959349593495935,0.9979633401221996,246.0
+Blueberry - healthy,0.9955947136563876,1.0,0.9977924944812362,226.0
+Cherry (including sour) - Powdery mildew,1.0,1.0,1.0,158.0
+Cherry (including sour) - healthy,1.0,0.9921875,0.996078431372549,128.0
+Corn (maize) - Cercospora leaf spot Gray leaf spot,0.9156626506024096,0.987012987012987,0.95,77.0
+Corn (maize) - Common rust,1.0,1.0,1.0,179.0
+Corn (maize) - Northern Leaf Blight,0.9929577464788732,0.9527027027027027,0.9724137931034482,148.0
+Corn (maize) - healthy,1.0,1.0,1.0,174.0
+Grape - Black rot,1.0,1.0,1.0,177.0
+Grape - Esca (Black Measles),1.0,1.0,1.0,208.0
+Grape - Leaf blight (Isariopsis Leaf Spot),1.0,1.0,1.0,162.0
+Grape - healthy,1.0,1.0,1.0,64.0
+Orange - Haunglongbing (Citrus greening),1.0,1.0,1.0,825.0
+Peach - Bacterial spot,1.0,1.0,1.0,345.0
+Peach - healthy,1.0,1.0,1.0,54.0
+"Pepper, bell - Bacterial spot",1.0,0.9933333333333333,0.9966555183946488,150.0
+"Pepper, bell - healthy",1.0,1.0,1.0,222.0
+Potato - Early blight,1.0,1.0,1.0,150.0
+Potato - Late blight,1.0,1.0,1.0,150.0
+Potato - healthy,1.0,1.0,1.0,23.0
+Raspberry - healthy,1.0,1.0,1.0,56.0
+Soybean - healthy,0.9986928104575163,1.0,0.999345977763244,764.0
+Squash - Powdery mildew,1.0,1.0,1.0,275.0
+Strawberry - Leaf scorch,1.0,1.0,1.0,167.0
+Strawberry - healthy,1.0,1.0,1.0,69.0
+Tomato - Bacterial spot,0.9843260188087775,0.9843260188087775,0.9843260188087775,319.0
+Tomato - Early blight,0.9868421052631579,1.0,0.9933774834437086,150.0
+Tomato - Late blight,1.0,0.9894736842105263,0.9947089947089947,285.0
+Tomato - Leaf Mold,1.0,1.0,1.0,143.0
+Tomato - Septoria leaf spot,0.9962406015037594,0.9962406015037594,0.9962406015037594,266.0
+Tomato - Spider mites Two-spotted spider mite,0.9960474308300395,1.0,0.998019801980198,252.0
+Tomato - Target Spot,0.9767441860465116,0.995260663507109,0.9859154929577465,211.0
+Tomato - Tomato Yellow Leaf Curl Virus,1.0,0.996268656716418,0.9981308411214954,804.0
+Tomato - Tomato mosaic virus,1.0,1.0,1.0,56.0
+Tomato - healthy,1.0,1.0,1.0,238.0
+accuracy,0.9970552147239263,0.9970552147239263,0.9970552147239263,0.9970552147239263
+macro avg,0.995871270095985,0.996914239661716,0.9963412839411052,8150.0
+weighted avg,0.9971279478117303,0.9970552147239263,0.9970661425977337,8150.0

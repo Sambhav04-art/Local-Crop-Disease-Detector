@@ -1,0 +1,21 @@
+{
+  "model": "efficientnet_b0",
+  "temperature": 0.46510645747184753,
+  "confidence_threshold": 0.7,
+  "test_images": 8150,
+  "test_accuracy": 0.9970552147239263,
+  "test_top5_accuracy": 1.0,
+  "test_macro_precision": 0.995871270095985,
+  "test_macro_recall": 0.996914239661716,
+  "test_macro_f1": 0.9963412839411052,
+  "test_weighted_f1": 0.9970661425977337,
+  "ece_before_calibration": 0.1453107467604561,
+  "ece_after_calibration": 0.0014766902426269646,
+  "clean_test_at_threshold": {
+    "coverage": 0.9976687116564417,
+    "selective_accuracy": 0.9981552084614439,
+    "wrong_but_accepted": 0.0018404907975460123
+  },
+  "field_test": null,
+  "smoke_run": false
+}

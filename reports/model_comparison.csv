@@ -1,0 +1,4 @@
+model,val_acc,val_macro_f1,best_epoch,epochs_run,params_millions,train_minutes,cpu_latency_ms
+efficientnet_b0,0.9977924944812362,0.9965300400737087,6,6,4.06,103.1,29.1
+mobilenet_v3_large,0.9970566593083149,0.9956144040831117,5,6,4.25,62.5,16.6
+baseline_cnn,0.944935001226392,0.9320747752190532,6,6,0.99,56.8,20.0

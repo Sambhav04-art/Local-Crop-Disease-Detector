@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+data/raw/*
+data/processed/
+runs/
+.venv/
+venv/
+env/
+*.h5
+*.pt
+*.pkl
+data/field_train/*
+.env

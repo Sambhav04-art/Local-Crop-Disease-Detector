@@ -1,0 +1,11 @@
+# Training / evaluation / export
+torch>=2.3
+torchvision>=0.18
+numpy
+pandas
+pillow
+pyyaml
+tqdm
+matplotlib
+onnx
+onnxruntime

@@ -1,0 +1,7 @@
+services:
+  cropdx:
+    build: .
+    ports: ["8000:8000"]
+    environment:
+      API_KEY: "change-me"
+      MAX_UPLOAD_MB: "8"

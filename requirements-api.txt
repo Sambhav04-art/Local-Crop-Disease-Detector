@@ -1,0 +1,8 @@
+# Serving only (no PyTorch needed)
+fastapi>=0.110
+uvicorn[standard]>=0.29
+python-multipart>=0.0.9
+onnxruntime>=1.17
+numpy
+pillow
+pydantic>=2.5

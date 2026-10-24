@@ -1,0 +1,23 @@
+{
+  "modelVersion": "1.0.0",
+  "architecture": "efficientnet_b0",
+  "imageSize": 224,
+  "mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "temperature": 0.46510645747184753,
+  "confidenceThreshold": 0.7,
+  "numClasses": 38,
+  "testAccuracy": 0.9970552147239263,
+  "testMacroF1": 0.9963412839411052,
+  "trainedDataset": "PlantVillage (lab-condition leaf images)",
+  "exportedAt": "2026-10-20T20:21:54.294578+00:00",
+  "disclaimer": "AI-assisted indication only. This is not a guaranteed agricultural diagnosis. Confirm with a qualified agronomist or local agricultural extension service before taking any treatment decision."
+}

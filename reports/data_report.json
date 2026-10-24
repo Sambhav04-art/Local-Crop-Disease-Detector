@@ -1,0 +1,31 @@
+{
+  "dataset_dirs": [
+    "C:\\Users\\sambh\\OneDrive\\Desktop\\coding\\team_task_gdg\\crop-disease-ai\\crop-disease-ai\\data\\raw\\plantvillage dataset\\color"
+  ],
+  "num_classes": 38,
+  "scanned_images": 54305,
+  "removed_by_reason": {
+    "duplicate_of_kept_image": 33
+  },
+  "clean_images": 54272,
+  "classes_dropped_too_small": {},
+  "imbalance_ratio_max_over_min": 36.2,
+  "smallest_class": [
+    "Potato___healthy",
+    152
+  ],
+  "largest_class": [
+    "Orange___Haunglongbing_(Citrus_greening)",
+    5502
+  ],
+  "split_images": {
+    "train": 37968,
+    "val": 8154,
+    "test": 8150
+  },
+  "similarity_groups": 50544,
+  "largest_group": 2509,
+  "image_size_top5": {
+    "256x256": 54272
+  }
+}
